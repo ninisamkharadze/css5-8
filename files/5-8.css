@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.everythingDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+}
+
 .searchAndUserDiv {
     display: flex;
     flex-direction: row;
@@ -52,6 +63,327 @@ input {
 
 .logoAndnavDiv {
     display: inline-flex;
+    flex-direction: column;
     border-right: 1px solid #434343;
     background: #222224;
+    gap: 32px;
+    padding: 16px;
+}
+
+.yellowButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FAE101;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 16px;
+    gap: 8px;
+}
+
+.littleAsideDivs {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.asideButtonAndNavDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343
+}
+
+.profileAndWorkDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+
+.spanProfileAndWorkDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.acountSpan {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+.theMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h1 {
+    color: #FAE101;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.grinchNextText {
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.grinchNextH2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.grinchNextP {
+    font-size: 16px;
+    font-weight: 600;
+    color: #B7B7B7;
+}
+
+.bigGrinchAndTextDiv {
+    display: flex;
+    flex-direction: row;
+    padding: 19px 170px 19px 40px;
+    background-color: #222224;
+    gap: 259px;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.justDiv {
+    padding-top: 32px;
+}
+
+.greyButtonDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.onlyYellowButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    color: #000;
+    font-size: 16;
+    font-weight: 500;
+    background-color: #FAE101;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 24px;
+}
+
+.greyLittleButton {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #222224;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 24px;
+}
+
+.grinchText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.onlyTextDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.yellowBoxDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.fleshSale {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sale {
+    color: #FAE101;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.endingIn {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bigGrinchesDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.grinchCard {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background: #222224;
+    padding: 16px;
+}
+
+.onlyGrinchesAndTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 154px;
+}
+
+
+.grinchCardText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.stoleH3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.grinchCardP {
+    color: #797979;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.cardYellowSpan {
+    color: #FAE101;
+    font-size: 16px;
+}
+
+.cardGreySpan {
+    color: #797979; 
+    font-size: 14px
+}
+
+.yellowSpanAdGreyDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.cardYellowButton {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #FAE101;
+    border: none;
+    border-radius: 4px;
+}
+
+.img {
+    height: 171px;
+}
+
+.grinchCardTextAndBUttonDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.theCradsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 80vw;
+    padding-bottom: 32px;
+}
+
+.BigRowOfCardsDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+}
+
+.onlyCardRowDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 23%;
+}
+
+.theCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 254px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
+
+.cardTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cardImg {
+    width: 100%;
+}
+
+.stars {
+    width: 128px;
+}
+
+.cardH3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cardP {
+    color: #797979;
+    font-size: 14px;
+}
+
+.allThemes {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
 }
